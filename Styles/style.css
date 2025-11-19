@@ -7,6 +7,16 @@ body {
 	background-color: lightgray;
 }
 
+.main {
+	width: 100%;
+	height: 50px;
+	background-color: lightgray;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
 .menus h3 {
 	display: inline-block;
 	margin-left: 35px;
@@ -31,7 +41,7 @@ body {
 }
 
 .card {
-	margin: 27px 40px 40px 138px;
+	margin: 50px 40px 40px 138px;
 	width: 362px;
 	height: 360px;
 	background-color: white;
@@ -148,4 +158,21 @@ body {
 	width: 100%;
 	height: 201px;
 	background-color: #243043;
+	color: #818687;
+}
+
+
+.rectangle .body1, .rectangle .body2, .rectangle .body3, .rectangle .body4 {
+    display: inline-block;
+    width: 150px;
+    margin-right: 50px;
+}
+
+.body1 {
+	margin-left: 100px;
+	margin-top: 59px;
+}
+
+.body4 {
+	color: #FFFFFF;
 }
