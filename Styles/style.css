@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: lightgray;
+}
+
+.card {
+	margin: 27px 40px 40px 138px;
+	width: 362px;
+	height: 360px;
+	background-color: white;
+	border-radius: 10%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.card img {
+	width: 100%;
+	height: 186px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+
+.card .photo {
+	position: relative;
+}
+
+.photo > p {
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+	top: 32px;
+	left: 41px;
+}
+
+.texts {
+	margin-top: 68px;
+	margin-left: 37px;
+}
+
+.card > h6 {
+	font-size: 10px;
+	font-weight: 700;
+	color: #8A8787;
+}
+
+.title {
+	font-weight: 800;
+	font-size: 24px;
+	margin-left: 140px;
+	margin-top: 17px;
+	margin-bottom: 30px;
+}
+
+.images {
+	position: relative;
+}
+
+.image1 img {
+	width: 758px;
+	height: 430px;
+	border-radius: 5px;
+	margin-left: 138px;
+}
+
+.image1 .text1 {
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+	top: 203.5px;
+	left: 278px;
+}
+
+
+.image3 {
+	width: 362px;
+	height: 212px;
+	border-radius: 5px;
+	margin-left: 45px;
+}
+
+.smallimages {
+	position: relative;
+}
+
+.smallimages img {
+	width: 362px;
+	height: 212px;
+	border-radius: 5px;
+}
+
+.image1, .smallimages {
+	display: inline-block; 
+    vertical-align: top;     
+    position: relative;      
+    margin-right: 20px;      
+}
+
+.image3 {
+	margin-left: 45px;
+	margin-bottom: 98px;
+}
+
+.image4 {
+	margin-left: 45px;
+	margin-bottom: 103px;
+}
+
+.image5 {
+	margin-left: 45px;
+}
