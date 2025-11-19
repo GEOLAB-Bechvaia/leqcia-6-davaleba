@@ -7,6 +7,29 @@ body {
 	background-color: lightgray;
 }
 
+.menus h3 {
+	display: inline-block;
+	margin-left: 35px;
+	margin-top: 21px;
+	font-size: 11px;
+}
+
+.menu {
+	margin-left: 102px;
+}
+
+.pfp {
+	display: inline-block;
+}
+
+.menu img {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	margin-left: 29px;
+	vertical-align: middle;
+}
+
 .card {
 	margin: 27px 40px 40px 138px;
 	width: 362px;
@@ -74,7 +97,7 @@ body {
 	font-size: 20px;
 	font-weight: 700;
 	top: 203.5px;
-	left: 278px;
+	left: 400px;
 }
 
 
@@ -114,4 +137,15 @@ body {
 
 .image5 {
 	margin-left: 45px;
+}
+
+.image9 {
+	margin-top: 45px;
+	margin-bottom: 36px;
+}
+
+.rectangle {
+	width: 100%;
+	height: 201px;
+	background-color: #243043;
 }
