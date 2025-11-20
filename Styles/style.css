@@ -40,6 +40,10 @@ body {
 	vertical-align: middle;
 }
 
+.trading {
+	margin-top: 50px;
+}
+
 .card {
 	margin: 50px 40px 40px 138px;
 	width: 362px;
